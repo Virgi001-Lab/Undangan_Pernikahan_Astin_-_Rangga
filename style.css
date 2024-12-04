@@ -353,15 +353,6 @@ img.wedding {
     opacity: 1;
 }
 
-.btn-map {
-    transform: translateY(100px);
-    opacity: 0;
-    transition: .5s;
-}
-.btn-map.muncul {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 ul li a {
     width: 120px;
@@ -653,4 +644,26 @@ ul li a.active svg {
         height: 40px;
         min-height: 40px;
     }
+}
+
+.count-down {
+    padding: 20px;
+    background-color: #f9f9f9; /* Ganti dengan warna latar belakang yang diinginkan */
+}
+
+#love-gift {
+    max-width: 600px;
+    margin: auto;
+}
+
+.rekening-item {
+    transition: background-color 0.3s;
+}
+
+.rekening-item:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Efek hover yang lebih halus */
+}
+
+.copy-btn {
+    cursor: pointer;
 }
